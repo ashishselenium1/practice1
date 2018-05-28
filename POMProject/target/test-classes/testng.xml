@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite" parallel="tests">
+
+<test name="Login Test">
+    <classes>
+        <class name="com.zoho.testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Create Lead Test">
+    <classes>
+        <class name="com.zoho.testcases.CreateLeadTest" ></class>  
+    </classes>
+</test>
+<test name="Delete Lead Test">
+    <classes>
+        <class name="com.zoho.testcases.DeleteLeadTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
