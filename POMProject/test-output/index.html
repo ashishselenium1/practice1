@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Sample_Suite">
-              <span class="suite-name border-failed">Sample Suite</span>
+              <span class="suite-name border-skipped">Sample Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,  4 skipped,  </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Sample_Suite" class="hide-methods failed suite-Sample_Suite"> (hide)</a> <!-- hide-methods failed suite-Sample_Suite -->
-                      <a href="#" panel-name="suite-Sample_Suite" class="show-methods failed suite-Sample_Suite"> (show)</a> <!-- show-methods failed suite-Sample_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Sample_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.LoginTest" hash-for-method="doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)">doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Sample_Suite -->
+                    <span class="method-stats">5 methods,  5 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -115,7 +101,7 @@
                     <div class="method-list-content skipped suite-Sample_Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.CreateLeadTest" hash-for-method="createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)">createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.DeleteLeadTest" hash-for-method="createLead(Y, Chrome, Thakur)">createLead(Y, Chrome, Thakur)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -125,12 +111,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.DeleteLeadTest" hash-for-method="createLead(Y, Chrome, Thakur)">createLead(Y, Chrome, Thakur)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.CreateLeadTest" hash-for-method="createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)">createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.LoginTest" hash-for-method="doLogin(N, Chrome, U2, P2, LoginFailure)">doLogin(N, Chrome, U2, P2, LoginFailure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_Suite" title="com.zoho.testcases.LoginTest" hash-for-method="doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)">doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Sample_Suite -->
@@ -145,42 +136,41 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Sample_Suite" class="panel Sample_Suite">
-          <div class="suite-Sample_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.zoho.testcases.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)">
-                  </a> <!-- doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Got actual result as LoginSuccess
-	at com.zoho.pages.base.BasePage.reportFailure(BasePage.java:69)
-	at com.zoho.testcases.LoginTest.doLogin(LoginTest.java:60)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Sample_Suite-class-failed -->
           <div class="suite-Sample_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.zoho.testcases.LoginTest</span>
+              <span class="class-name">com.zoho.testcases.CreateLeadTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin(N, Chrome, U2, P2, LoginFailure)">
-                  </a> <!-- doLogin(N, Chrome, U2, P2, LoginFailure) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(N, Chrome, U2, P2, LoginFailure)</span>
+                  <a name="createLead(Y, Chrome, Ashish, Thakur, Whizdom Trainings)">
+                  </a> <!-- createLead(Y, Chrome, Ashish, Thakur, Whizdom Trainings) -->
+                  <span class="method-name">createLead</span>
+                  <span class="parameters">(Y, Chrome, Ashish, Thakur, Whizdom Trainings)</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
-	at com.zoho.testcases.LoginTest.doLogin(LoginTest.java:40)
-... Removed 23 stack frames
+	at com.zoho.testcases.CreateLeadTest.createLead(CreateLeadTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)">
+                  </a> <!-- createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings) -->
+                  <span class="method-name">createLead</span>
+                  <span class="parameters">(N, Mozilla, Abhishek, Puri, Whizdom Trainings)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.zoho.testcases.CreateLeadTest.createLead(CreateLeadTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -200,7 +190,11 @@
                   <span class="parameters">(Y, Chrome, Thakur)</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode was NO
 	at com.zoho.testcases.DeleteLeadTest.createLead(DeleteLeadTest.java:26)
-... Removed 23 stack frames
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -209,30 +203,38 @@
           <div class="suite-Sample_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.zoho.testcases.CreateLeadTest</span>
+              <span class="class-name">com.zoho.testcases.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)">
-                  </a> <!-- createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings) -->
-                  <span class="method-name">createLead</span>
-                  <span class="parameters">(N, Mozilla, Abhishek, Puri, Whizdom Trainings)</span>
+                  <a name="doLogin(N, Chrome, U2, P2, LoginFailure)">
+                  </a> <!-- doLogin(N, Chrome, U2, P2, LoginFailure) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(N, Chrome, U2, P2, LoginFailure)</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
-	at com.zoho.testcases.CreateLeadTest.createLead(CreateLeadTest.java:29)
-... Removed 23 stack frames
+	at com.zoho.testcases.LoginTest.doLogin(LoginTest.java:40)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="createLead(Y, Chrome, Ashish, Thakur, Whizdom Trainings)">
-                  </a> <!-- createLead(Y, Chrome, Ashish, Thakur, Whizdom Trainings) -->
-                  <span class="method-name">createLead</span>
-                  <span class="parameters">(Y, Chrome, Ashish, Thakur, Whizdom Trainings)</span>
+                  <a name="doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)">
+                  </a> <!-- doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
-	at com.zoho.testcases.CreateLeadTest.createLead(CreateLeadTest.java:29)
-... Removed 23 stack frames
+	at com.zoho.testcases.LoginTest.doLogin(LoginTest.java:40)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -247,7 +249,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Sample Suite&quot;&gt;
+&lt;suite name=&quot;Sample Suite&quot; parallel=&quot;tests&quot;&gt;
   &lt;test name=&quot;Login Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.zoho.testcases.LoginTest&quot;/&gt;
@@ -308,30 +310,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doLogin')
-data.setCell(0, 2, 'com.zoho.testcases.LoginTest')
-data.setCell(0, 3, 70653);
+data.setCell(0, 1, 'createLead')
+data.setCell(0, 2, 'com.zoho.testcases.DeleteLeadTest')
+data.setCell(0, 3, 13);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'doLogin')
-data.setCell(1, 2, 'com.zoho.testcases.LoginTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'createLead')
+data.setCell(1, 2, 'com.zoho.testcases.CreateLeadTest')
+data.setCell(1, 3, 13);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createLead')
-data.setCell(2, 2, 'com.zoho.testcases.CreateLeadTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 1, 'doLogin')
+data.setCell(2, 2, 'com.zoho.testcases.LoginTest')
+data.setCell(2, 3, 13);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createLead')
-data.setCell(3, 2, 'com.zoho.testcases.CreateLeadTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'com.zoho.testcases.LoginTest')
+data.setCell(3, 3, 2);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'createLead')
-data.setCell(4, 2, 'com.zoho.testcases.DeleteLeadTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 2, 'com.zoho.testcases.CreateLeadTest')
+data.setCell(4, 3, 1);
 window.suiteTableData['Sample_Suite']= { tableData: data, tableDiv: 'times-div-Sample_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 42 ms</span>
               <div id="times-div-Sample_Suite">
               </div> <!-- times-div-Sample_Suite -->
             </div> <!-- times-div -->
@@ -357,74 +359,105 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.zoho.testcases.DeleteLeadTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)</span>
-                <span class="method-start">156 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">70809 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">init</span>
-                <span class="method-start">73121 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">doLogin(N, Chrome, U2, P2, LoginFailure)</span>
-                <span class="method-start">73121 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">73122 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.zoho.testcases.CreateLeadTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">74266 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createLead(Y, Chrome, Ashish, Thakur, Whizdom Trainings)</span>
-                <span class="method-start">74266 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">74267 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">74337 ms</span>
+                <span class="method-start">2 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.DeleteLeadTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)</span>
-                <span class="method-start">74337 ms</span>
+                <span class="method-name">createLead(Y, Chrome, Thakur)</span>
+                <span class="method-start">186 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Y, Chrome, appiumselendro.id@gmail.com, pass@1234, LoginFailure)</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.CreateLeadTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createLead(Y, Chrome, Ashish, Thakur, Whizdom Trainings)</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">74338 ms</span>
+                <span class="method-start">199 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.zoho.testcases.DeleteLeadTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">init</span>
-                <span class="method-start">74417 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createLead(Y, Chrome, Thakur)</span>
-                <span class="method-start">74418 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">74419 ms</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.CreateLeadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">588 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.CreateLeadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLead(N, Mozilla, Abhishek, Puri, Whizdom Trainings)</span>
+                <span class="method-start">750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin(N, Chrome, U2, P2, LoginFailure)</span>
+                <span class="method-start">750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.CreateLeadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoho.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">752 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
